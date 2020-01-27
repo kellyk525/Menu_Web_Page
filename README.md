@@ -1,5 +1,5 @@
 
-## Menu Web Page (Using Giphy API)
+## Menu Web Page
 
 ## Technologies Used
 
