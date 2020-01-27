@@ -16,8 +16,6 @@ class Menu extends React.Component {
     }
 
     fetchMenu() {
-
-        var data = Data;
         // fetch('./data.js')
         //     .then(response => response.json())
         //     .then(menu => this.setState({ menu: menu.brands }, console.log(menu)))
@@ -35,9 +33,13 @@ class Menu extends React.Component {
                 <li key={ i }><MenuItem item={item} /></li>
             )
         })
+
         return (
             <div>
-                <div>{ category }</div>
+                <div>
+                    <div>{ category }</div>
+                    <div>Showing { list.length } items</div>
+                </div>
                 <ul>{ appetizer }</ul>
             </div>
         )

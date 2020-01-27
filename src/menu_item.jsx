@@ -14,7 +14,9 @@ class MenuItem extends React.Component {
 
         return (
             <div>
-                { item.title }
+                <div>{ item.title }</div>
+                <div>{ item.description }</div>
+                <div>$ { item.price }</div>
             </div>
         )
     }
