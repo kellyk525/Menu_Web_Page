@@ -11,17 +11,6 @@ class Menu extends React.Component {
         }
     }
 
-    componentDidMount() {
-        this.fetchMenu();
-    }
-
-    fetchMenu() {
-        // fetch('./data.js')
-        //     .then(response => response.json())
-        //     .then(menu => this.setState({ menu: menu.brands }, console.log(menu)))
-        //     .catch(error => console.log(error))
-    }
-
     render() {
 
         const { menu } = this.state;

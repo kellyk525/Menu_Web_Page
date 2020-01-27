@@ -63,7 +63,6 @@ p {
 
 .menu {
     width: 40%;
-    /* background: rgb(228, 224, 224); */
     margin: 0 auto;
     min-width: 500px;
     max-width: 700px;
@@ -76,9 +75,18 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* background: blue; */
+    align-items: center;
     margin-bottom: 20px;
+    color: rgb(145, 143, 143);
 }
+
+.menu-head div:first-child {
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+}
+
+/* Menu List Styling */
 
 .menu ul {
     list-style-type: none;
@@ -87,10 +95,12 @@ p {
 .menu li {
     height: 120px;
     margin: 20px 0px;
-    padding: 15px;
+    padding: 0px 15px;
     border-radius: 5px;
     border: 1px solid rgba(193, 190, 190, 0.719);
     box-shadow: 1px 1px 8px rgba(201, 199, 199, 0.598);
+    display: flex;
+    align-items: center;
 }
 
 .item-content h6 {
@@ -109,4 +119,5 @@ p {
     color: black;
     letter-spacing: 1px;
     font-size: 14px;
+    line-height: 14px;
 }
