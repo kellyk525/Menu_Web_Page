@@ -42,6 +42,9 @@ p {
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 100px;
+    position: fixed;
+    z-index: 200;
+    background: white;
 
     border-bottom: 1px solid rgb(214, 208, 208);
     box-shadow: 1px 1px 8px rgba(176, 175, 175, 0.598);
@@ -68,6 +71,7 @@ p {
     max-width: 700px;
     padding: 30px 0px;
     font-family: Assistant;
+    z-index: 100;
 }
 
 .menu-head {
@@ -76,6 +80,8 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    margin-top: 80px;
     margin-bottom: 20px;
     color: rgb(145, 143, 143);
 }
@@ -96,11 +102,12 @@ p {
     height: 120px;
     margin: 20px 0px;
     padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    
     border-radius: 5px;
     border: 1px solid rgba(193, 190, 190, 0.719);
     box-shadow: 1px 1px 8px rgba(201, 199, 199, 0.598);
-    display: flex;
-    align-items: center;
 }
 
 .item-content h6 {
@@ -109,15 +116,15 @@ p {
 }
 
 .item-content p {
-    color: rgba(128, 128, 128, 0.947);
+    margin: 7px 0px;
     font-size: 15px;
     line-height: 20px;
-    margin: 7px 0px;
+    color: rgba(128, 128, 128, 0.947);
 }
 
 .item-content .price {
     color: black;
-    letter-spacing: 1px;
     font-size: 14px;
     line-height: 14px;
+    letter-spacing: 1px;
 }
