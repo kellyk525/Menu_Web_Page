@@ -28,7 +28,7 @@ class Menu extends React.Component {
         const category = menu[0].brands[0].storeGroups[0].stores[0].menus[0].campaignMenuAudits[0].items[0].categories.title;
         const list = menu[0].brands[0].storeGroups[0].stores[0].menus[0].campaignMenuAudits[0].items
 
-        const appetizer = list.map( (item, i) => {
+        const appetizers = list.map( (item, i) => {
             return (
                 <li key={ i }><MenuItem item={item} /></li>
             )
@@ -40,7 +40,7 @@ class Menu extends React.Component {
                     <div>{ category }</div>
                     <div>Showing { list.length } items</div>
                 </div>
-                <ul>{ appetizer }</ul>
+                <ul>{ appetizers }</ul>
             </div>
         )
     }

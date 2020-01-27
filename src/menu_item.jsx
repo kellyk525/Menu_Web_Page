@@ -13,10 +13,10 @@ class MenuItem extends React.Component {
         }
 
         return (
-            <div>
-                <div>{ item.title }</div>
-                <div>{ item.description }</div>
-                <div>$ { item.price }</div>
+            <div className="item-content">
+                <h6>{ item.title }</h6>
+                <p>{ item.description }</p>
+                <p className="price">$ { item.price }</p>
             </div>
         )
     }
