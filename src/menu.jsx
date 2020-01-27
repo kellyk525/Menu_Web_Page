@@ -35,8 +35,8 @@ class Menu extends React.Component {
         })
 
         return (
-            <div>
-                <div>
+            <div className="menu">
+                <div className="menu-head">
                     <div>{ category }</div>
                     <div>Showing { list.length } items</div>
                 </div>

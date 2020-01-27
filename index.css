@@ -1,0 +1,62 @@
+
+/*  Reset Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    padding: 6rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/* Individual Styling */
+
+.navbar {
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 100px;
+
+    border-bottom: 1px solid rgb(214, 208, 208);
+    box-shadow: 1px 1px 8px rgba(176, 175, 175, 0.598);
+    font-family: Assistant;
+}
+
+.nav-content div:first-child {
+    font-weight: 600;
+}
+
+.nav-circle {
+    background: rgb(106, 106, 106);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+/* Menu Styling */
